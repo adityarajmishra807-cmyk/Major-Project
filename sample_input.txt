@@ -1,0 +1,38 @@
+Testing and Results
+Test Cases
+Test Case 1 – Placing a Valid Order
+•	Input:
+o	Item Code: 1 (Pizza)
+o	Quantity: 2
+•	Expected Output:
+o	Subtotal calculated ($199 \times 2 = 398$).
+o	"Order saved" message displayed .
+Test Case 2 – Entering Invalid Item Code
+•	Input:
+o	Item Code: 99 (Not in menu)
+•	Expected Output:
+o	"Invalid code" message.
+o	User is prompted to enter code again.
+Test Case 3 – Viewing Previous Orders
+•	Input:
+o	Choose option 3 (View Previous Orders).
+•	Expected Output:
+o	All past bill summaries stored in orders.txt should be displayed .
+Test Case 4 – Applying Discount Code
+•	Input:
+o	Discount Code: "SAVE10".
+•	Expected Output:
+o	"Discount code applied: 10% off" message.
+o	10% deduction reflected in the final total.
+Test Case 5 – Invalid Rating Input
+•	Input:
+o	Rating: 6 (Range is 1-5).
+•	Expected Output:
+o	"Invalid rating" message.
+o	Rating is not saved to the file.
+Test Case 6 – Invalid Menu Input
+•	Input:
+o	Alphabet or symbol instead of number (e.g., 'a').
+•	Expected Output:
+o	"Invalid input" message.
+o	Program cleans input buffer and prompts for choice again; does not crash .
