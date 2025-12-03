@@ -3,6 +3,7 @@ Description
 The Food Ordering System is a console-based application designed to streamline the process of ordering food and generating bills in a restaurant setting. It allows users to view the menu, place orders for multiple items, automatically calculate totals with GST and discounts, view order history, and provide customer ratings. This project demonstrates the use of structured programming in C, file handling for data persistence (orders.txt and ratings.txt), and a user-interactive menu-driven design. It serves as an excellent major project for academic purposes, showcasing real-world logic implementation.
 
 Repository Structure
+```
 /
 |-- src/              (all .c files)
 |-- include/          (all .h files)
@@ -10,6 +11,7 @@ Repository Structure
 |-- assets/           (optional: screenshots, diagrams)
 |-- README.md         (this file)
 |-- sample_input.txt  (optional test inputs)
+```
 
 Getting Started
 Prerequisites
